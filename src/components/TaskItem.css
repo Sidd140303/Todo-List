@@ -1,0 +1,76 @@
+.custom-checkbox {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.custom-checkbox:hover {
+  box-shadow: 0 0 8px 2px rgba(0, 255, 255, 0.8);
+}
+
+.custom-checkbox:checked {
+  background-color: #deefff;
+}
+
+.custom-checkbox:checked::after {
+  content: "✔";
+  color: rgb(0, 135, 245);
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+.strikethrough {
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+.btn {
+  background-color: rgb(191, 72, 243); /* Remove default button styling */
+  cursor: pointer;
+  display: flex;
+  border: 2px solid white;
+  padding: 5px;
+
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Change icon color on hover */
+.btn:hover svg {
+  color: #7fffaa; /* Neon blue or any desired color */
+}
+
+.task-container {
+  display: flex;
+  align-items: center; /* Centers the items vertically */
+  justify-content: space-between; /* Adjusts the space between items */
+  width: 100%;
+  background-color: rgb(103, 189, 250);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.btned {
+  background-color: rgb(105, 19, 255);/* Remove default button styling */
+  border: 2px solid white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 4px;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+.iconcon {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}

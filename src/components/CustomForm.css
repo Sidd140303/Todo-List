@@ -1,0 +1,33 @@
+/* CustomForm.css */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 8px;
+  font-size: 16px;
+  background-color: white;
+  border: 4px solid #48bde4;
+  border-radius: 10px;
+  width: 25%;
+  color: #2b0152;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
